@@ -1,0 +1,42 @@
+{
+  "name": "course-selling-app",
+  "version": "1.0.0",
+  "description": "Backend for Course Selling App built with Node.js, Express.js, and MongoDB. Includes admin/user auth, course management, and purchase tracking.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js",
+    "prod": "node index.js",
+    "test": "echo \"No test suite defined\""
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "course-app",
+    "course-selling",
+    "backend",
+    "REST API",
+    "authentication"
+  ],
+  "author": "Vinay Prabhakar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.6.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

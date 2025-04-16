@@ -1,0 +1,56 @@
+# Node modules
+node_modules/
+
+# dotenv environment file
+.env
+.env.local
+
+# log files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+# Uploaded or Transient Files
+uploads/
+cloudinary/
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Build outputs
+dist/
+build/
+
+# Optional: PM2 process log files
+pids/
+*.pid
+
+# Cloudinary temp storage
+cloudinary/
+
+# Coverage reports
+coverage/
+
+# Debug files
+*.tgz
+
+# Optional: ignore database dumps
+*.sql
+*.sqlite
+*.db
+
+# Ignore any local SSL certs
+*.pem
+certs/
