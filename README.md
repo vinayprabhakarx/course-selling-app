@@ -16,7 +16,7 @@ A robust and scalable backend for the **Course Selling App**, built using **Node
 
 ---
 
-## **Features**
+## <a id="features"></a>**🚀Features**
 
 ### 🔐 Admin Authentication
 
@@ -36,7 +36,7 @@ A robust and scalable backend for the **Course Selling App**, built using **Node
 
 ---
 
-## **🛠 Tech Stack**
+## <a id="tech-stack"></a>**🛠 Tech Stack**
 
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB with Mongoose
@@ -46,7 +46,7 @@ A robust and scalable backend for the **Course Selling App**, built using **Node
 
 ---
 
-## **🧰 Installation**
+## <a id="installation"></a>**🧰 Installation**
 
 ### **Clone the repository**
 
@@ -63,7 +63,7 @@ npm install
 
 ---
 
-## **🔐 Environment Variables**
+## <a id="environment-variables"></a>**🔐 Environment Variables**
 
 Rename the .ENV.EXAMPLE file to .env and configure the variables as shown:
 
@@ -79,7 +79,7 @@ NODE_ENV=development              # or production
 
 ---
 
-## **📡 Running the Server**
+## <a id="running-the-server"></a>**📡 Running the Server**
 
 To start the server:
 
@@ -92,7 +92,7 @@ http://localhost:3000
 
 ---
 
-## **📨 API Endpoints**
+## <a id="api-endpoints"></a>**📨 API Endpoints**
 
 ### **Admin Routes**
 
@@ -124,7 +124,7 @@ http://localhost:3000
 
 ---
 
-## **📁 Project Structure**
+## <a id="project-structure"></a>**📁 Project Structure**
 
 ```
 /course-selling-app
@@ -149,6 +149,4 @@ http://localhost:3000
 ├── .gitignore                    # Files to ignore in Git
 ├── index.js                      # App entry point
 └── README.md                     # Project documentation
-
-
 ```
